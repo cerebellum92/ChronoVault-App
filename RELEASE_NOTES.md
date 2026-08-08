@@ -1,4 +1,4 @@
-## [v1.0.0] - 2026-08-07
+## [v1.0.0] - 2026-08-08
 
 Welcome to **ChronoVault Pro**, the next-generation native macOS cloud backup system powered by the high-performance Duplicacy Engine!
 
