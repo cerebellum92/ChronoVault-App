@@ -58,7 +58,7 @@ If you want to build ChronoVault from source (private core repo required):
 
 For questions, bugs, or feature requests, please contact:
 
-- **Support email**: support@chronovault.com
+- **Support email**: support@chronovaultapp.com
 - **GitHub Issues**: Open an issue here (you may need to be a collaborator for private details).
 
 ---
