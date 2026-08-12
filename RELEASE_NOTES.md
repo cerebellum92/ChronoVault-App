@@ -1,3 +1,11 @@
+## [v1.0.1] - 2026-08-10
+
+- 🚀 **Restore Explorer New Folder Support**: Added a "New Folder" directory creation button inside the Finder restore destination picker.
+- 🛡️ **Smart Window & Process Safeguard**: Automatically brings main windows and modal sheets to the front when clicking Quit, with interactive `NSAlert` confirmation prompts during active backups/restores.
+- ⚡ **Real-Time Revision Sync & Local DB Auto-Persistence**: Fixed a minor UI display issue where snapshot counts and revision cards were occasionally delayed or overwritten by stale local cache entries when switching protected folders.
+
+---
+
 ## [v1.0.0] - 2026-08-08
 
 Welcome to **ChronoVault Pro**, the next-generation native macOS cloud backup system powered by the high-performance Duplicacy Engine!
