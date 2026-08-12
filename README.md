@@ -12,13 +12,15 @@ ChronoVault Pro uses a **Freemium model**. The Free Edition is **100% free forev
 | :--- | :---: | :---: |
 | **Protected Folder Limit** | **1 Folder** | **Unlimited Folders** |
 | **Primary Cloud Backup (Google Drive / Local)** | ✅ Included | ✅ Included |
+| **Scheduled Background Automations** | ✅ Included (1 Folder) | ✅ Included (Unlimited Folders) |
 | **Zero-Knowledge AES-256 Encryption** | ✅ Included | ✅ Included |
 | **Time Machine Historical Snapshot Recovery** | ✅ Latest & All Revisions | ✅ Unlimited Revisions & Fast Search |
+| **macOS Native Menu Bar Quick Controls** | ✅ Included | ✅ Included |
+| **Smart Battery & Hotspot Guard** (Pause on Battery / Hotspot) | ✕ | ✅ Included |
 | **3-2-1 Multi-Destination Matrix** (OneDrive / S3 / B2 / SSD) | ✕ | ✅ Included |
 | **Automated Chained Replication Sync** | ✕ | ✅ Included |
-| **macOS Native Menu Bar Daemon** | ✕ | ✅ Included |
 
-> 💡 **In-App Paywall Upgrade**: You can use the Free Edition indefinitely. When you need to protect multiple folders or configure 3-2-1 multi-cloud targets, simply click "+ Add Folder" or "+ Add Destination" inside the app to unlock Pro features anytime!
+> 💡 **In-App Paywall Upgrade**: You can use the Free Edition indefinitely. When you need to protect multiple folders, enable smart battery/hotspot guards, or configure 3-2-1 multi-cloud targets, simply click "+ Add Folder" or "+ Add Destination" inside the app to unlock Pro features anytime!
 
 ---
 
