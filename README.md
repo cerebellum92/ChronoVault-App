@@ -1,72 +1,72 @@
-# ChronoVault App
+# ChronoVault Pro — Native macOS Cloud Backup Engine 🛡️
 
-**ChronoVault** is a macOS backup utility that securely backs up your data to Google Drive (or other cloud storage). This repository provides the **free version** of ChronoVault, which already lets you:
-
-- Back up any folder on your Mac.
-- Add one or more remote or local backup slots.
-- Restore the latest backup with a single click.
-
-The installer is distributed **exclusively via GitHub** for now. Future purchase or subscription links will be added once the product is officially launched.
+**ChronoVault Pro** is a native, ultra-fast macOS cloud backup application powered by the open-source Duplicacy deduplication engine. It combines zero-knowledge AES-256 client-side encryption with Time Machine-style snapshot recovery and 3-2-1 multi-cloud redundancy.
 
 ---
 
-## 📦 Download & Install (GitHub only)
+## 🎁 Free Edition vs. Pro Features
 
-1. **Download the installer**
-   - Click the DMG file directly: [ChronoVault‑Pro‑1.0.0‑Installer.dmg](https://github.com/cerebellum92/ChronoVault-App/raw/main/ChronoVault-Pro-1.0.0-Installer.dmg)
-2. **Mount the DMG** by double‑clicking the file.
-3. **Drag `ChronoVault Pro.app`** into your `Applications` folder.
-4. Launch the app and follow the on‑screen setup wizard.
+ChronoVault Pro uses a **Freemium model**. The Free Edition is **100% free forever** for single-folder backups with zero functional expiration!
 
-> The installer is signed and notarized for macOS 13+.
+| Feature / Capability | Free Edition ($0 Forever) | Pro Edition ($2.99/mo · $9.99/yr · $34.99 Lifetime) |
+| :--- | :---: | :---: |
+| **Protected Folder Limit** | **1 Folder** | **Unlimited Folders** |
+| **Primary Cloud Backup (Google Drive / Local)** | ✅ Included | ✅ Included |
+| **Zero-Knowledge AES-256 Encryption** | ✅ Included | ✅ Included |
+| **Time Machine Historical Snapshot Recovery** | ✅ Latest & All Revisions | ✅ Unlimited Revisions & Fast Search |
+| **3-2-1 Multi-Destination Matrix** (OneDrive / S3 / B2 / SSD) | ✕ | ✅ Included |
+| **Automated Chained Replication Sync** | ✕ | ✅ Included |
+| **macOS Native Menu Bar Daemon** | ✕ | ✅ Included |
 
----
-
-## 🔄 Manual Update
-
-ChronoVault does **not** currently perform automatic updates. To upgrade:
-
-1. Visit the **Releases** page: https://github.com/cerebellum92/ChronoVault-App/releases
-2. Download the latest DMG.
-3. Replace the existing `ChronoVault Pro.app` in your Applications folder with the new version (you may need to quit the app first).
-
-Future versions will include an automatic update mechanism for a smoother upgrade experience.
+> 💡 **In-App Paywall Upgrade**: You can use the Free Edition indefinitely. When you need to protect multiple folders or configure 3-2-1 multi-cloud targets, simply click "+ Add Folder" or "+ Add Destination" inside the app to unlock Pro features anytime!
 
 ---
 
-## 📖 Release Notes
+## 📦 First-Time Installation & Gatekeeper Setup Guide
 
-See the full changelog in [`RELEASE_NOTES.md`](RELEASE_NOTES.md).
+As an indie developer project, ChronoVault Pro is currently unnotarized while we work toward reaching our revenue goal to acquire the official $99/yr Apple Developer Certificate.
 
----
+Because of this, macOS Gatekeeper may display a notice upon first launch: *"cannot be opened because it is from an unidentified developer"*.
 
-## 🛠️ Build & Development (optional)
+### ⚡ Quick 3-Step Setup (Only needed once):
 
-If you want to build ChronoVault from source (private core repo required):
-
-```bash
-# Clone the core repository (private)
-# git clone git@github.com:cerebellum92/ChronoVaultPro-Core.git
-# Follow the internal documentation to build the macOS app.
-```
-
-> This public repository only contains the installer binary; source code lives in the private `ChronoVaultPro-Core` repo.
-
----
-
-## 📧 Support
-
-For questions, bugs, or feature requests, please contact:
-
-- **Support email**: support@chronovaultapp.com
-- **GitHub Issues**: Open an issue here (you may need to be a collaborator for private details).
+1. **Download the Installer**:
+   👉 Click to download: [ChronoVault-Pro-1.0.0-Installer.dmg](https://github.com/cerebellum92/ChronoVault-App/raw/main/ChronoVault-Pro-1.0.0-Installer.dmg)
+2. **Mount & Install**:
+   - Double-click `ChronoVault-Pro-1.0.0-Installer.dmg` to open it.
+   - Drag **ChronoVault Pro** into your **Applications** folder.
+3. **First-Time Unlocking**:
+   - Open your **Applications** folder.
+   - **Right-click (or Control-click)** **ChronoVault Pro** and select **Open**.
+   - Click **Open** in the macOS dialog box to unlock it. *(Only needed once!)*
 
 ---
 
-## ⚖️ License
+## 🔔 Smart Automatic Update Notifications
 
-The installer is provided under the same license as the core product. See the `LICENSE` file in the private repository for details.
+ChronoVault Pro includes an **automatic update notification engine**. 
+
+- On app launch, ChronoVault Pro quietly checks for new releases on GitHub in the background.
+- When an update (e.g. `v1.0.1`) is available, a 1-click update dialog will automatically pop up with release notes and a direct download link.
+- You can also view the latest releases anytime at: [github.com/cerebellum92/ChronoVault-App/releases](https://github.com/cerebellum92/ChronoVault-App/releases)
 
 ---
 
-*This README was generated automatically. Feel free to edit and improve it.*
+## ⚖️ Duplicacy Engine & Commercial Use Disclaimer
+
+ChronoVault Pro acts as a native macOS GUI wrapper and manager for the open-source **Duplicacy** deduplication backup engine.
+
+- **Personal & Non-Commercial Use**: Free under the Duplicacy Open Source License for personal use.
+- **Commercial & Business Use**: If you are using ChronoVault Pro to back up business, corporate, or commercial organization data, please ensure you review and comply with Duplicacy’s official commercial licensing terms at [duplicacy.com](https://duplicacy.com).
+
+*ChronoVault Pro is an independent project and is not affiliated with or endorsed by Acritox LLC / Duplicacy.*
+
+---
+
+## 📧 Support & Feedback
+
+Thank you for supporting an independent developer! 100% of sales directly fund our official Apple Developer certification & ongoing feature updates. ❤️
+
+- **Official Website**: [www.chronovaultapp.com](https://www.chronovaultapp.com)
+- **Support Email**: `support@chronovaultapp.com`
+- **GitHub Issues**: Open an issue on this repository for feature requests or feedback.
