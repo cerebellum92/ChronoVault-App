@@ -9,6 +9,10 @@
 - **Active Snapshot Count Indicator**: Updated the green stat card to display the actual number of active, non-pruned snapshot points as the primary metric, with the latest revision integer in the subtitle (e.g. `175 Active Snapshots · Latest Rev #718`).
 - **Equal Height Card Grid & Text Auto-Scaling**: Locked executive metric cards to uniform heights and added text scale protection (`minimumScaleFactor`) to prevent title and metric text from breaking lines on smaller window sizes.
 
+### 🛠️ Stability & Window Performance Fixes
+- **Smooth Window Management**: Fixed an issue where re-opening the main dashboard multiple times could cause background windows to stack up and pop open when quitting the app.
+- **Dynamic Backup Button Status**: Replaced static dots indicator on backup buttons with native animated loading spinners (`Backing Up...`) for clearer status feedback.
+
 ---
 
 ## [v1.0.0] - 2026-08-08
