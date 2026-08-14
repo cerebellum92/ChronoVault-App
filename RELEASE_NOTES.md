@@ -2,9 +2,9 @@
 
 ## [v1.0.1] - 2026-08-12
 
-### 🛡️ Native Background Daemon & Window Management
-- **Menu Bar Background Retention**: Closing the main window (clicking the red "X") now hides the window while keeping the background daemon 100% active in the Menu Bar. Scheduled backups and multi-cloud sync continue seamlessly.
+### 🛡️ Smart Safety Quit Protection & Window Management
 - **Smart Safety Quit Protection**: If you attempt to quit ChronoVault Pro while a backup or restore transfer is actively running, an interactive `NSAlert` will warn you first to prevent accidental transfer interruptions.
+- **Improved Window Behavior**: Seamlessly toggle and minimize the main dashboard window while the Menu Bar daemon monitors your backups in the background.
 
 ### 📁 Restore Explorer Enhancements
 - **In-App New Folder Creation**: When selecting a restore target directory in the Time Capsule Explorer, you can now click the **"New Folder"** button directly inside the macOS Finder folder picker to create designated destination folders instantly.
