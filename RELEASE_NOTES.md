@@ -1,8 +1,17 @@
-## [v1.0.1] - 2026-08-10
+# 🚀 ChronoVault Pro Release Notes
 
-- 🚀 **Restore Explorer New Folder Support**: Added a "New Folder" directory creation button inside the Finder restore destination picker.
-- 🛡️ **Smart Window & Process Safeguard**: Automatically brings main windows and modal sheets to the front when clicking Quit, with interactive `NSAlert` confirmation prompts during active backups/restores.
-- ⚡ **Real-Time Revision Sync & Local DB Auto-Persistence**: Fixed a minor UI display issue where snapshot counts and revision cards were occasionally delayed or overwritten by stale local cache entries when switching protected folders.
+## [v1.0.1] - 2026-08-12
+
+### 🛡️ Native Background Daemon & Window Management
+- **Menu Bar Background Retention**: Closing the main window (clicking the red "X") now hides the window while keeping the background daemon 100% active in the Menu Bar. Scheduled backups and multi-cloud sync continue seamlessly.
+- **Smart Safety Quit Protection**: If you attempt to quit ChronoVault Pro while a backup or restore transfer is actively running, an interactive `NSAlert` will warn you first to prevent accidental transfer interruptions.
+
+### 📁 Restore Explorer Enhancements
+- **In-App New Folder Creation**: When selecting a restore target directory in the Time Capsule Explorer, you can now click the **"New Folder"** button directly inside the macOS Finder folder picker to create designated destination folders instantly.
+
+### 📊 Dashboard & UI Layout Refinements
+- **Active Snapshot Count Indicator**: Updated the green stat card to display the actual number of active, non-pruned snapshot points as the primary metric, with the latest revision integer in the subtitle (e.g. `175 Active Snapshots · Latest Rev #718`).
+- **Equal Height Card Grid & Text Auto-Scaling**: Locked executive metric cards to uniform heights and added text scale protection (`minimumScaleFactor`) to prevent title and metric text from breaking lines on smaller window sizes.
 
 ---
 
@@ -10,10 +19,7 @@
 
 Welcome to **ChronoVault Pro**, the next-generation native macOS cloud backup system powered by the high-performance Duplicacy Engine!
 
----
-
-## ✨ Key Features & Highlights
-
+### ✨ Key Features & Highlights
 - ⚡ **Native macOS Interface**: Built 100% with SwiftUI & Swift Charts for macOS 14+.
 - 🔒 **AES-256 Military Encryption**: Client-side zero-knowledge encryption before uploading to Google Drive & secondary clouds.
 - ⏳ **Time Capsule Explorer & 1-Click Single-File Restore**: Browse historical snapshot revisions and restore single files in under 1 second.
@@ -22,11 +28,3 @@ Welcome to **ChronoVault Pro**, the next-generation native macOS cloud backup sy
 - 🎨 **Modern Dark/Light Mode & Wavy Charts**: Real-time storage capacity growth charts with smooth glowing line indicators.
 - 🗑️ **Dual Uninstallation Wizard**: Choose between preserving configuration files or performing a complete wipe.
 - 🚀 **1-Click Engine Installer & Auto Updates**: Integrated GitHub release checker and 1-click Duplicacy engine onboarding.
-
----
-
-## 📦 Downloads & Installation
-
-1. Download **`ChronoVault-Pro-Installer.dmg`** below.
-2. Open the DMG and drag **ChronoVault Pro** into your **Applications** folder.
-3. Launch the app and activate your Pro license key!
