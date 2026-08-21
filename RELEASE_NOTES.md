@@ -10,14 +10,6 @@
   - **一鍵展開/收合全部 (`Expand All / Collapse All`)**：提供快速工具列按鈕，毫秒級秒開所有子項目。
   - **極致 0.001s 效能**：基於本地 SQLite 快取與記憶體 Trie 架構，展開/收合完全不需網路請求，極致流暢零卡頓。
 
-### ⚡ Upload Bandwidth Rate Limiting
-- **Customizable Upload Speed Limits**: Added flexible upload speed throttling in Settings (`1 MB/s`, `2 MB/s`, `5 MB/s`, `10 MB/s`, `Custom kB/s`, or `Unlimited`).
-- **Engine-Level Rate Control**: Directly interfaces with Duplicacy's `-limit-rate` (for backups) and `-upload-limit-rate` (for offsite cloud replication) to prevent background tasks from saturating home/office upload bandwidth.
-- **Config & Shell Sync**: Seamlessly syncs rate limits to `app_config.json` and `backup.conf`.
-
-### 📁 Restore Target Folder Creation
-- **Finder "New Folder" Button Enabled**: Restored and enabled the **"New Folder"** button inside the macOS Finder folder picker when choosing a custom restore location.
-
 ---
 
 ### 📁 Restore Explorer Enhancements
@@ -27,9 +19,10 @@
 - **Active Snapshot Count Indicator**: Updated the green stat card to display the actual number of active, non-pruned snapshot points as the primary metric, with the latest revision integer in the subtitle (e.g. `175 Active Snapshots · Latest Rev #718`).
 - **Equal Height Card Grid & Text Auto-Scaling**: Locked executive metric cards to uniform heights and added text scale protection (`minimumScaleFactor`) to prevent title and metric text from breaking lines on smaller window sizes.
 
-### 🛠️ Stability & Window Performance Fixes
-- **Smooth Window Management**: Fixed an issue where re-opening the main dashboard multiple times could cause background windows to stack up and pop open when quitting the app.
-- **Dynamic Backup Button Status**: Replaced static dots indicator on backup buttons with native animated loading spinners (`Backing Up...`) for clearer status feedback.
+### 🛡️ Stability, Performance & UI Refinements
+* **Background Size Calculation**: Storage size refreshing now executes asynchronously in the background, eliminating beachballs and UI freezes on massive repositories.
+* **Strict Recursive File Filtering**: Enhanced regex filter prevents `.DS_Store` and temporary OS metadata from syncing across all nested subdirectories.
+* **Smooth Window Management**: Fixed an issue where re-opening the main dashboard multiple times could cause background windows to stack up.
 
 ---
 
