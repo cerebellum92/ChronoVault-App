@@ -24,23 +24,23 @@ ChronoVault Pro uses a **Freemium model**. The Free Edition is **100% free forev
 
 ---
 
-## 📦 First-Time Installation & Gatekeeper Setup Guide
+## 📦 First-Time Installation & Gatekeeper Security Guide
 
-As an indie developer project, ChronoVault Pro is currently unnotarized while we work toward reaching our revenue goal to acquire the official $99/yr Apple Developer Certificate.
+Because ChronoVault Pro is an independent developer project and has not yet enrolled in Apple's $99/yr Developer Program, macOS Gatekeeper will display an unidentified developer notice upon first launch: *"cannot be opened because it is from an unidentified developer"*.
 
-Because of this, macOS Gatekeeper may display a notice upon first launch: *"cannot be opened because it is from an unidentified developer"*.
+The app is 100% open, local-first, and runs securely on your Mac.
 
 ### ⚡ Quick 3-Step Setup (Only needed once):
 
-1. **Download the Installer**:
-   👉 Click to download: [ChronoVault-Pro-1.0.0-Installer.dmg](https://github.com/cerebellum92/ChronoVault-App/raw/main/ChronoVault-Pro-1.0.0-Installer.dmg)
-2. **Mount & Install**:
-   - Double-click `ChronoVault-Pro-1.0.0-Installer.dmg` to open it.
+1. **Mount & Install**:
+   - Double-click `ChronoVault-Pro-1.0.2-Installer.dmg` to open it.
    - Drag **ChronoVault Pro** into your **Applications** folder.
-3. **First-Time Unlocking**:
-   - Open your **Applications** folder.
-   - **Right-click (or Control-click)** **ChronoVault Pro** and select **Open**.
-   - Click **Open** in the macOS dialog box to unlock it. *(Only needed once!)*
+2. **First-Time Launch Notice**:
+   - Open your **Applications** folder and double-click **ChronoVault Pro**. When the macOS security prompt appears, click **Done** (or dismiss it).
+3. **Allow in System Settings**:
+   - Open **System Settings ➔ Privacy & Security** (系統設定 ➔ 隱私權與安全性).
+   - Scroll down to the **Security** section and click **"Open Anyway" (仍要打開)** next to ChronoVault Pro.
+   - Enter your Mac password to confirm. *(Only needed once, permanent trust!)*
 
 ---
 

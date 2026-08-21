@@ -1,6 +1,24 @@
 # 🚀 ChronoVault Pro Release Notes
 
-## [v1.0.1] - 2026-08-12
+## [v1.0.2] - 2026-08-20
+
+### 🚀 新增功能與重大優化 (Major Features & Improvements)
+
+- **🌲 macOS Finder 原生階層式展開目錄樹 (Collapsible Directory Tree)**
+  - **原生摺疊展開 (`▶ / ▼`)**：Snapshot 檔案結構全面升級為 macOS Finder 列表檢視，支援資料夾無限層級點擊展開/收合。
+  - **跨目錄/跨層級多選還原 (Cross-Depth Multi-Selection)**：可在不同深度的目錄中自由勾選多個檔案與資料夾，上方即時統計選取總數，支援一鍵批量還原。
+  - **一鍵展開/收合全部 (`Expand All / Collapse All`)**：提供快速工具列按鈕，毫秒級秒開所有子項目。
+  - **極致 0.001s 效能**：基於本地 SQLite 快取與記憶體 Trie 架構，展開/收合完全不需網路請求，極致流暢零卡頓。
+
+### ⚡ Upload Bandwidth Rate Limiting
+- **Customizable Upload Speed Limits**: Added flexible upload speed throttling in Settings (`1 MB/s`, `2 MB/s`, `5 MB/s`, `10 MB/s`, `Custom kB/s`, or `Unlimited`).
+- **Engine-Level Rate Control**: Directly interfaces with Duplicacy's `-limit-rate` (for backups) and `-upload-limit-rate` (for offsite cloud replication) to prevent background tasks from saturating home/office upload bandwidth.
+- **Config & Shell Sync**: Seamlessly syncs rate limits to `app_config.json` and `backup.conf`.
+
+### 📁 Restore Target Folder Creation
+- **Finder "New Folder" Button Enabled**: Restored and enabled the **"New Folder"** button inside the macOS Finder folder picker when choosing a custom restore location.
+
+---
 
 ### 📁 Restore Explorer Enhancements
 - **In-App New Folder Creation**: When selecting a restore target directory in the Time Capsule Explorer, you can now click the **"New Folder"** button directly inside the macOS Finder folder picker to create designated destination folders instantly.
