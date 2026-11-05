@@ -1,8 +1,8 @@
 # 🚀 ChronoVault Pro Release Notes
 
-## [v1.0.6] (Release 0.1.6) - 2026-11-04
+## [v1.0.6] - 2026-11-04
 
-This major release consolidates all performance optimizations, multi-cloud replication enhancements, scheduling resilience, and UI refinements developed since v1.0.2 (0.1.2).
+This major release consolidates all performance optimizations, multi-cloud replication enhancements, scheduling resilience, and UI refinements developed since v1.0.2.
 
 ### ⚡ 8-Thread Accelerated Retention Pruning (`-threads 8`)
 - **Multi-Threaded Cloud Pruning**: Enabled concurrent 8-thread execution (`-threads 8`) in `DuplicacyPruneService`, accelerating chunk identification and deletion operations across Google Drive, Microsoft OneDrive, Amazon S3, and Backblaze B2.
