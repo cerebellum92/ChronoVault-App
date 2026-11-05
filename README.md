@@ -33,7 +33,7 @@ The app is 100% open, local-first, and runs securely on your Mac.
 ### ⚡ Quick 3-Step Setup (Only needed once):
 
 1. **Mount & Install**:
-   - Double-click `ChronoVault-Pro-1.0.2-Installer.dmg` to open it.
+   - Double-click `ChronoVault-Pro-1.0.6-Installer.dmg` to open it.
    - Drag **ChronoVault Pro** into your **Applications** folder.
 2. **First-Time Launch Notice**:
    - Open your **Applications** folder and double-click **ChronoVault Pro**. When the macOS security prompt appears, click **Done** (or dismiss it).
